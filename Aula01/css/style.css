@@ -1,0 +1,30 @@
+body{
+    background-color: darkgray;
+}
+
+/* Adicionando imagen no fundo de um elemento */
+.ex1{
+    background-image:url(../img/fundo.jpg);
+    color: rgb(241, 240, 235);
+}
+
+/* Ajustando repetição de imagem no fundo do elemnto*/
+.ex2 {
+    background-image: url(../img/grassjpg\ 1.png);
+    height: 100px;
+    background-repeat: repeat-x;
+}
+
+.ex3 {
+    background-image: url(../img/grassjpg\ 1.png);
+    height: 100px;
+    background-repeat: repeat-y;
+    align-content: center;
+}
+
+.ex4 {
+    background-image: url(../img/grassjpg\ 1.png);
+    height: 100px;
+    background-repeat: no-repeat;
+    align-content: center;
+}
