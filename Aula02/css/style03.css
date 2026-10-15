@@ -1,0 +1,130 @@
+body{
+    font-family: monospace;
+}
+
+p.dotted {
+    border-style: dashed;
+}
+
+p.deshed {
+    border-style:dashed ;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+P.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style:hidden;
+}
+
+/*Definindo espessuras de borda */
+p.border-5px {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.boder-medium {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.border-2px {
+    border-style: solid;
+    border-width: 2px;
+}
+
+p.border-thick {
+    border-style: solid;
+    border-width: thick;
+}
+
+/*Definindo valores especificos para espessuras de borda*/
+p.b-especifica1 {
+    border-style: solid;
+    border-width: 20px 10px;
+}
+
+p.b-especifica2 {
+    border-style: solid;
+    border-width: 20px 4px 10px 30px;
+}
+
+p.b-especifica3 {
+    border-style: solid;
+    border-width: 5px 30px;
+}
+
+/*Definindo cores com bordas com o borde-color*/
+p.b-cor1{
+    border-style: solid; 
+    border-color: crimson;
+}
+
+p.b-cor2{
+    border-style: dotted;
+    border-color: #5fb7b4;
+}
+
+p.b-cor3 {
+    border-style: double;
+    border-color: rgb(144, 78, 128);
+}
+
+/*Definindo cores em boradas especificas*/
+p.borda-cor-esp {
+    border-style: solid;
+    border-width: 10px;
+    border-color: crimson orangered olivedrab deeppink;
+}
+
+/*Definindo estilos diferentes para as bordas*/
+p.bordas-dis1 {
+    border-top-style: solid;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: groove;
+}
+
+p.dis2 {
+    border-style: solid dotted dashed;
+}
+
+/*Definindo bordas com propreiedades abreviadas*/
+p.borda-abbr1 {
+    border: 10px solid purple;
+}
+
+p.borda-abbr2 {
+  border-left: 10px solid darksalmon;
+}
+
+/*Arredondandp bordas com o border-radiuns*/
+p.borda-arredondada {
+    border: 6px solid deeppink;
+    border-radius: 20px;
+}

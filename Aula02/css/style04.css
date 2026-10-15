@@ -1,0 +1,35 @@
+body {
+    background-color: pink;
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+/*Definindo margens individuais */
+p.margin.ex1 {
+    border: 2px solid crimson;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+/* Definindo margens com propriedades abreviada*/
+p.margin-ex2 {
+    border: 2px solid deeppink;
+    margin: 60px;
+}
+
+p.margin-ex3 {
+    border: 2px solid blue;
+    margin: 60px 25px;
+}
+
+p.margin-ex4 {
+    border: 2px solid tomato;
+    margin: 60px 25px 100px;
+}
+
+p.margin-ex5 {
+    border: 2px solid purple;
+    margin: 60px 25px 100px 150px;
+}

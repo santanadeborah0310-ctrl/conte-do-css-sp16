@@ -1,0 +1,15 @@
+/*Utilizando o background-attachment fundos*/
+body {
+    font-family: sans-serif;
+    background-image: url(../img/pinturaa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Utilizando a propriedade abreviadwa para background*/
+
+.ex2{
+    background: url(../img/grassjpg\ 1.png) no-repeat #999999;
+    color: white;
+
+}
