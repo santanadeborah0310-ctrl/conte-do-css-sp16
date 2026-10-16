@@ -1,0 +1,51 @@
+body {
+    background-color: #9999;
+    font-family: monospace;
+}
+
+/* Padding individuais em elemento */
+p.ex1 {
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+}
+
+/* Padding com propriedades abreviadas*/
+p.padding-abbr1,
+p.padding-abbr2,
+p.padding-abbr3,
+p.padding-abbr4 {
+    border: 2px solid white;
+}
+
+p.padding-abbr1 {
+    padding: 30px;
+}
+
+p.padding-abbr2 {
+    padding: 30px 100px;
+}
+
+p.padding-abbr3 {
+    padding: 30px 100px 200px;
+}
+
+p.padding-abbr4 {
+    padding: 30px 150px 200px 70px;
+}
+
+/*Largura de elemento sendo afetada pelo padding*/
+div.padding-width1 {
+    background-color: cadetblue;
+    width: 300px;
+}
+
+div.padding-width2 {
+    background-color: mediumorchid;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
