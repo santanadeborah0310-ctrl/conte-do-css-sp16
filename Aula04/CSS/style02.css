@@ -1,0 +1,18 @@
+body {
+  background-color: lightskyblue;
+  font-family: sans-serif;
+}
+
+/* Definindo contorno no css */
+p.contorno1 {
+  border: 6px solid goldenrod;
+  outline: 8px solid navy;
+}
+
+/* Definindo espaçamento entre contorno e borda de elemento */
+p.contorno2 {
+  border: 4px solid white;
+  outline: 8px solid goldenrod;
+  outline-offset: 6px;
+  margin: 10px;
+}

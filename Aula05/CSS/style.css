@@ -1,0 +1,79 @@
+body {
+  background-color: rebeccapurple;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: ghostwhite;
+}
+
+.center div,
+.flex-start div,
+.flex-end div,
+.space-around div, 
+.space-between div,
+.space-evenly div {
+  background-color: ghostwhite;
+  color: blueviolet;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+/* Utilizando a propriedade justify-content */
+.center {
+  background-color: darkmagenta;
+  border: 8px solid ghostwhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.flex-start {
+  background-color: darkmagenta;
+  border: 8px solid ghostwhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start; /* Valor padrão */
+}
+
+.flex-end {
+  background-color: darkmagenta;
+  border: 8px solid ghostwhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;  
+}
+
+.space-around {
+  background-color: darkmagenta;
+  border: 8px solid ghostwhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.space-between {
+  background-color: darkmagenta;
+  border: 8px solid ghostwhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.space-evenly {
+  background-color: darkmagenta;
+  border: 8px solid ghostwhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}

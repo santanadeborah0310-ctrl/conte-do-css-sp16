@@ -1,0 +1,110 @@
+body {
+  background-color: blanchedalmond;
+  font-family: sans-serif;
+}
+
+/* Exemplo inicial para flexbox */
+div.ex1 {
+  background-color: crimson;
+  border: 2px solid black;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+div.ex1 div {
+  background-color: ghostwhite;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+}
+
+/* Utilizando o flex-direction */
+.ex2-column {
+  background-color: crimson;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  /* flex-direction: row; <--- Esse é o valor padrão */
+  flex-direction: column;
+}
+
+.ex2-column div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+.ex2-row-reverse {
+  background-color: crimson;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row-reverse;
+}
+
+.ex2-row-reverse div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+.ex2-column-reverse {
+  background-color: crimson;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column-reverse;
+}
+
+.ex2-column-reverse div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* Utilizando o flex-wrap */
+.ex3-wrap {
+  background-color: crimson;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* flex-wrap: nowrap <--- Valor padrão */
+}
+
+.ex3-wrap div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+.ex3-wrap-reverse {
+  background-color: crimson;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+}
+
+.ex3-wrap-reverse div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}

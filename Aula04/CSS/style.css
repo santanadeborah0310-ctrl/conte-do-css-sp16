@@ -1,0 +1,12 @@
+body {
+  background-color: beige;
+  font-family: monospace;
+}
+
+/* Definindo propriedades para box model */
+p.p-boxmodel {
+  border: 2px solid navy;
+  padding: 20px;
+  margin: 50px;
+  width: 200px;
+}

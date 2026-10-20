@@ -1,0 +1,106 @@
+body {
+  background-color: crimson;
+  font-family: monospace;
+  color: antiquewhite;
+}
+
+.center-1 div,
+.flex-start-1 div,
+.flex-end-1 div,
+.stretch-1 div,
+.center-2 div,
+.space-between-2 div {
+  background-color: bisque;
+  color: darkred;
+  border: 2px solid black;
+  padding: 30px 20px;
+  text-align: center;
+  align-content: center;
+}
+
+/* Utilizando a propriedade align-items */
+.center-1 {
+  background-color: darkred;
+  border: 8px solid bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  height: 200px;
+  align-items: center;
+}
+
+.flex-start-1 {
+  background-color: darkred;
+  border: 8px solid bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.flex-end-1 {
+  background-color: darkred;
+  border: 8px solid bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.stretch-1 {
+  background-color: darkred;
+  border: 8px solid bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  height: 200px;
+  align-items: stretch;
+}
+
+/* Utilizando a propriedade align-content */
+.center-2 {
+  background-color: darkred;
+  border: 8px solid bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 500px;
+  align-content: center;
+}
+
+.space-between-2 {
+  background-color: darkred;
+  border: 8px solid bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 500px;
+  align-content: space-between;
+}
+
+/* Exemplo de centralização absoluta com flexbox*/
+
+.container div {
+  background-color: bisque;
+  border: 2px solid black;
+  color: darkred;
+  width: 250px;
+  height: 160px;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  background-color: darkred;
+  padding: 10px;
+  border: 8px solid bisque;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
