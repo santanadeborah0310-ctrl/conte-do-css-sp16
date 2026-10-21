@@ -1,0 +1,22 @@
+body {
+  background-color: darkslategrey;
+  font-family: monospace;
+  color: lightgray;
+}
+
+.container {
+  background-color: lightgray;
+  color: midnightblue;
+  border: 8px solid midnightblue;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.container div {
+  background-color: azure;
+  border: 4px solid darkslategray;
+  text-align: center;
+  align-content: center;
+}
