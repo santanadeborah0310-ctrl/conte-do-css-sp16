@@ -1,0 +1,142 @@
+body {
+  background-color: lightyellow;
+  color: darkred;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para contêineres e itens */
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex8,
+.ex9,
+.ex10 {
+  background-color: ghostwhite;
+  border: 8px solid tan;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 60px);
+}
+
+.ex1 div,
+.ex2 div,
+.ex3 div,
+.ex4 div,
+.ex8 div,
+.ex9 div,
+.ex10 div {
+  background-color: darkred;
+  color: lightyellow;
+  border: 4px solid tan;
+  text-align: center;
+  align-content: center;
+}
+
+/* Propriedade grid-column-start e grid-column-end */
+#ex1-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* Propriedade grid-column */
+#ex2-item1 {
+  grid-column: 1 / span 2;
+}
+
+/* Propriedade grid-row-start e grid-row-end */
+#ex3-item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+/* Propriedade grid-row */
+#ex4-item1 {
+  grid-row: 1 / span 2;
+}
+
+/* ------------------------------- */
+
+/* Grid Template Areas */
+.ex5,
+.ex6,
+.ex7 {
+  background-color: tan;
+  border: 8px solid darkred;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.ex5 div,
+.ex6 div,
+.ex7 div {
+  background-color: cornsilk;
+  border: 4px solid darkred;
+  color: darkred;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+
+/* Exemplo 1 de grid-template-areas */
+.ex5 {
+  grid-template-areas: 'area area area area area';
+}
+
+#ex5-item1 {
+  grid-area: area;
+}
+
+/* Exemplo 2 de grid-template-areas */
+.ex6 {
+  grid-template-areas: 'area area area . .';
+}
+
+#ex6-item1 {
+  grid-area: area;
+}
+
+/* Exemplo 3 de grid-template-areas */
+.ex7 {
+  grid-template-areas: 
+  'area area . . .'
+  'area area . . .'
+  ;
+}
+
+#ex7-item1 {
+  grid-area: area;
+}
+
+/* ------------------------------------ */
+
+/* Alinhamento de itens na grade */
+
+/* Utilizando o justify-self */
+#ex8-item1 {
+  width: 50%;
+  justify-self: left;
+}
+
+#ex8-item6 {
+  width: 50%;
+  justify-self: right;
+}
+
+/* Utilizando o align-self */
+.ex9 {
+  grid-template-rows: repeat(2, 120px);
+}
+
+#ex9-item1 {
+  height: 50%;
+  align-self: end;
+}
+
+#ex9-item6 {
+  height: 50%;
+  align-self: start;
+}
